@@ -35,6 +35,7 @@ jobs:
           source: "dist/*"
           target: "/www/wwwroot/web_app"
 
+          
       # 刷新 nginx
       - name: Reload Nginx
         uses: appleboy/ssh-action@v1.0.3
